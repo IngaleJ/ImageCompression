@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=He, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Image Processing example with node</title>
+</head>
+<body>
+   <h2>
+      Image Processing example with node
+   </h2>
+   <br/>
+   <br/>
+   <form method="post" action="/uploadImg" enctype="multipart/form-data">
+      Upload image<br />
+      <input type="file" name="image" /><br /><br />
+      Quality (Best 100 and Worst 0)<br />  
+      <input type='number' name='quality' value='70'><br /><br />
+      <button type="submit" name="upload">Upload</button>
+   </form>
+</body>
+</html>
